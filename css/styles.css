@@ -14,6 +14,7 @@ p {
     color: #3f3d3d;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: medium;
+    margin-bottom: 100px;
 }
 
 hr {
@@ -24,6 +25,10 @@ hr {
     margin-bottom: 20px;
     width: 85%;
 }
+ul{
+    margin-top:0px;
+    margin-bottom: 10px;
+}
 
 .container-fluid {
     padding: 3% 7%;
@@ -33,7 +38,7 @@ hr {
 
 
 .navbar {
-    padding: 1%;
+    padding: .2%;
     background-color: white;
 }
 
@@ -49,14 +54,14 @@ hr {
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
     font-weight: bold;
-    line-height: normal;
+    line-height: active;
     padding: 0 5px;
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 /* Heading */
@@ -69,7 +74,11 @@ hr {
 }
 
 .butn {
-    margin-top: 7%;
+    margin-top: 1px;
+}
+
+.btn-link{
+    display: inline-block;
 }
 
 .img-1 {
@@ -78,11 +87,18 @@ hr {
 }
 
 .lis {
-    display: inline-block;
-    padding-left: 10px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    line-height: normal;
+    color: gray;
+    /* padding: 0 5px; */
+    margin-left: 10px;
+    /* margin-top: 400px; */
+
 }
 
-@media (max-width: 1028px) {
+@media(max-width: 1028px) {
 
     .img-1 {
         width: 100%;
@@ -97,4 +113,20 @@ hr {
         position: static;
         transform: rotate(0);
     }
+}
+
+/* features section */
+.bottom-fes{
+    margin-top:  30px;
+    width: 100%;
+    text-align: center;
+}
+.butn1{
+    /* width: 50px; */
+    height: 200;
+    margin-left: 40px;
+}
+#features{
+    background-color: white;
+    padding: 7% 15%;
 }
