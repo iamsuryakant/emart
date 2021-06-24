@@ -126,7 +126,52 @@ ul{
     height: 200;
     margin-left: 40px;
 }
+
+
+/* Features Section1 */
+
 #features{
     background-color: white;
-    padding: 7% 15%;
+    padding: 7px 15px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.hea{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 200px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hea:hover{
+    color:red;
+    font-family:cursive;
+}
+
+.feature-hr{
+    color: #333;
+    background-color: #333;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: left 100px;
+    width: 85%;
+}
+
+.icon{
+    font-size: 20px;
+}
+
+.icon:hover{
+    color: orangered;
+}
+
+
+/* Products */
+
+#products{
+    background-color:skyblue;
 }
