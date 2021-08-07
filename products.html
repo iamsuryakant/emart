@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | Emart</title>
+
+    <!-- CSS Bundle -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/068d8f19b0.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                   <a href="index.html"><img src="images/logo.png" alt="logo" width="115px"></a>
+                </div>
+
+                <nav>
+                    <ul id="MI">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="cart" class="cart"></a>
+                <img src="images/menu.png" alt="menu" class="menu-icon" onclick="mt()">
+            </div>
+
+        </div>
+    <!-- End Navigation -->
+
+    <!-- Features Products -->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2 class = "pro" >All Products</h2>
+
+            <select>
+                <option>Default</option>
+                <option>Sort by Price</option>
+                <option>Sort by rating</option>
+                <option>Sort by Sale</option>
+
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="productDetail.html"><img src="images/product-1.jpg" alt="product1"></a>
+                <h4>Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="product1">
+                <h4>HRX Shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <!-- <i class="far fa-star"></i> -->
+                </div>
+                <p>₹1000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="product1">
+                <h4>Casual Wear</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹700.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="product1">
+                <h4>Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="product1">
+                <h4>Adidas Shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹1500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="product1">
+                <h4>Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <!-- <i class="far fa-star"></i> -->
+                </div>
+                <p>₹1000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="product1">
+                <h4>HRX Shocks</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹400.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="product1">
+                <h4>Fossil Analog Watch</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹15000.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg" alt="product1">
+                <h4>Titan Analog Watch</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹1500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg" alt="product1">
+                <h4>HRX Shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <!-- <i class="far fa-star"></i> -->
+                </div>
+                <p>₹1000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg" alt="product1">
+                <h4>Sports Shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹700.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg" alt="product1">
+                <h4>Casual Wear</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download our app for Android and ios devices</p>
+                    <div class="app-logo">
+                        <a href="http://"><img src="images/play-store.png"></a>
+                        <a href="http://"> <img src="images/app-store.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <h2><em><a href="index.html" style="color: red; font-family:cursive;">Emart</a></em></h2>
+                    <p>Our purpose is to provide
+                        you the best<br> possible experience and services.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Link</h3>
+                    <ul>
+                        <li><a href="http://">Vouchers</a></li>
+                        <li><a href="http://">Blog</a></li>
+                        <li><a href="http://">Contact Us</a></li>
+                        <li><a href="http://">Return Policy</a></li>
+                        <li><a href="http://">Affliations</a></li>
+                    </ul>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="http://">Facebook</a></li>
+                        <li><a href="http://">Twitter</a></li>
+                        <li><a href="http://">Instagram</a></li>
+                        <li><a href="http://">Twitch</a></li>
+                        <li><a href="http://">Youtube</a></li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2021 - Emart</p>
+            <p class="copyright">Made with <i class="fas fa-heart" style="color: red "></i> by Suryakant Thakur | Vikash
+                Kumar Ram </p>
+        </div>
+    </div>
+
+    <!-- js -->
+
+    <script>
+
+        var MI = document.getElementById("MI");
+        MI.style.maxHeight = "0px";
+
+        function mt() {
+            if (MI.style.maxHeight == "0px") {
+                MI.style.maxHeight = "200px";
+            }
+            else {
+                MI.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

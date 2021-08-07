@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Contact | Emart</title>
+    <title>Account | Emart</title>
 
     <!-- CSS Bundle -->
 
@@ -32,7 +32,7 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <a href="index.html"><img src="images/logo.png" alt="logo" width="115px"></a>
+              <a href="index.html"><img src="images/logo.png" alt="logo" width="115px"></a>
             </div>
 
             <nav>
@@ -51,7 +51,7 @@
     </div>
     <!-- End Navigation -->
 
-    <!-- Content -->
+    <!-- account -->
 
     <div class="account-p">
         <div class="container">
@@ -59,17 +59,34 @@
                 <div class="col-2">
                     <img src="images/img-2.png" width="100%">
                 </div>
-    
+
                 <div class="col-2">
-                    <h1 style="text-align: center;">Coming Soon</h1>
-                    <p style="text-align: center;">We are working.</p>
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick = "login()">Login</span>
+                            <span onclick = "register()">Register</span>
+                            <hr id = "Indicator">
+                        </div>
+
+                        <form id = "LoginF">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type = "submit" class="btn">Login</button>
+                            <a href="">Forgot password</a>
+                        </form>
+
+                        <form id = "RegF">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+                    </div>
                 </div>
-    
+
             </div>
         </div>
     </div>
-
-
 
     <!-- Footer -->
 
@@ -114,7 +131,8 @@
             </div>
             <hr>
             <p class="copyright">Copyright &copy; 2021 - Emart</p>
-            <p class="copyright">Made with <i class="fas fa-heart" style="color: red "></i> by Suryakant Thakur | Vikash
+            <p class="copyright">Made with <i class="fas fa-heart" style="color: red "></i> by Suryakant Thakur |
+                Vikash
                 Kumar Ram </p>
         </div>
     </div>
@@ -134,6 +152,29 @@
                 MI.style.maxHeight = "0px";
             }
         }
+    </script>
+
+    <!-- Js For form -->
+
+    <script>
+        var LoginF = document.getElementById("LoginF");
+        var RegF = document.getElementById("RegF");
+        var Indicator = document.getElementById("Indicator");
+
+        function register() {
+            RegF.style.transform = "translateX(0px)";
+            LoginF.style.transform = "translateX(0px)";
+            Indicator.style.transform = "translateX(100px)";
+
+        }
+
+        function login() {
+                RegF.style.transform = "translateX(300px)";
+                LoginF.style.transform = "translateX(300px)";
+                Indicator.style.transform = "translateX(0px)";
+
+            }
+
     </script>
 
 </body>
