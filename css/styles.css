@@ -789,4 +789,8 @@ form a{
         width: 50%;
     }
 
+    .col-2 h1{
+        text-align: center;
+    }
+
 }
