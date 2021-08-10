@@ -104,7 +104,7 @@ p{
 .col-2 h1{
     font-size: 50px;
     line-height: 60px;
-    margin: 25px 0;
+    /* margin: 25px 0; */
 }
 
 .col-2 hr{
@@ -702,6 +702,12 @@ form a{
 }
 
 
+.typing{
+
+    color:red;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* Media Query */
 
 @media only screen and (max-width:800px){
@@ -733,12 +739,7 @@ form a{
     }
 }
 
-.typing{
-    text-decoration: underline;
-    color:red;
-    /* font-style: italic; */
-    font-family: cursive;
-}
+
 
 
 /* nav fixed */
